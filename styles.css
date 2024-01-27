@@ -1,0 +1,20 @@
+::before, ::after {
+    /*box-sizing property to inherit, which will tell the
+     targeted elements to use the same value as the parent element.*/
+    box-sizing: inherit;
+  }
+  /*The ::before selector creates a pseudo-element which is the first 
+  child of the selected element, while the ::after selector creates 
+  a pseudo-element which is the last child of the selected element.*/
+  #piano{
+    background-color: #470047;
+    width: 992px;
+    height: 290px;
+    margin: 80px auto;
+
+  }
+  .keys{
+    background-color: #040404;
+    width: 949px;
+    height: 180px;
+  }
